@@ -11,6 +11,6 @@ export default React.createClass({
 
 export default React.createClass({
   render () {
-    return <SuccessIcon />;
+    return <SuccessIcon isBadge='true'/>;
   },
 });
