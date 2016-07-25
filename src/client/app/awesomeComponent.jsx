@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'lucid-ui'
 
 //implement a simple component with different dev tools, including React, Redux, etc.
 class AwesomeComponent extends React.Component {

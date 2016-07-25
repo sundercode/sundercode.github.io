@@ -1,6 +1,5 @@
 import React from 'react';
-import {render} from 'react-dom';
-import AwesomeComponent from './AwesomeComponent.jsx';
+import { render } from 'react-dom';
 import CommentBox from './CommentBox.jsx';
 
 class App extends React.Component {
@@ -8,7 +7,6 @@ class App extends React.Component {
     return (
       <div>
         <h1> Hello React!</h1>
-        <AwesomeComponent />
         <CommentBox />
       </div>
     );

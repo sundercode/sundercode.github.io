@@ -1,4 +1,5 @@
 import React from 'react';
+import {Button} from 'lucid-ui';
 
 var CommentBox = React.createClass({
   render: function() {
