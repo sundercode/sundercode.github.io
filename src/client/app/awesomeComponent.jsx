@@ -1,5 +1,6 @@
 import React from 'react';
 
+//implement a simple component with different dev tools, including React, Redux, etc.
 class AwesomeComponent extends React.Component {
 
   constructor(props) {
