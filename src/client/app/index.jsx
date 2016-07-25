@@ -1,6 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 import CommentBox from './CommentBox.jsx';
+import { Button } from 'lucid-ui';
 
 class App extends React.Component {
   render () {
