@@ -1,14 +1,10 @@
 import React from 'react';
-import {Button} from 'lucid-ui';
+import { Button } from 'lucid-ui';
 
-var CommentBox = React.createClass({
-  render: function() {
+export default React.createClass({
+  render () {
     return (
-      <div className='CommentBox'>
-        Hello, World! I am a comment box.
-      </div>
+      <Button kind='info'> Information</Button>
     );
-  }
+  },
 });
-
-export default CommentBox;
