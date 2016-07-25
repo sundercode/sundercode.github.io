@@ -1,6 +1,7 @@
 import React from 'react';
 import {render} from 'react-dom';
 import AwesomeComponent from './AwesomeComponent.jsx';
+import CommentBox from './CommentBox.jsx';
 
 class App extends React.Component {
   render () {
@@ -9,6 +10,8 @@ class App extends React.Component {
         <p> Hello React!</p>
         <AwesomeComponent />
       </div>
+      <div>
+        <
     );
   }
 }
