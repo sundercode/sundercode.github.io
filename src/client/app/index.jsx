@@ -1,17 +1,15 @@
 import React from 'react';
 import { render } from 'react-dom';
-import CommentBox from './CommentBox.jsx';
-import { Button } from 'lucid-ui';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
+import todoApp from './reducers';
+import App from './components/App';
 
-class App extends React.Component {
-  render () {
-    return (
-      <div>
-        <h1> Hello React!</h1>
-        <CommentBox />
-      </div>
-    );
-  }
-}
+let store = createStore(todoApp);
 
-render(<App/>, document.getElementById('app'));
+render(
+  <Provider store={store}>
+    <App />
+  </Provider>
+  document.getElementById('root');
+)
